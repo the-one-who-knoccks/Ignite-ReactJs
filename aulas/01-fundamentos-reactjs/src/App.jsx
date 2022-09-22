@@ -1,4 +1,4 @@
-import { Post } from "./Post";
+import { Post } from "./components/Post";
 import { Header } from "./components/Header";
 import { Sidebar } from "./components/Sidebar";
 
@@ -11,7 +11,7 @@ export function App() {
       <Header />
 
       <div className={styles.wrapper}>
-        <Sidebar/>
+        <Sidebar />
         <main>
           <Post
             author="Thiago Alves"
@@ -19,10 +19,14 @@ export function App() {
           />
 
           <Post
-            author="Diego Fernandes"
+            author="Thiago Alves"
             content="lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
           />
-          <Post />
+
+          <Post
+            author="Thiago Alves"
+            content="lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+          />
         </main>
       </div>
     </>
