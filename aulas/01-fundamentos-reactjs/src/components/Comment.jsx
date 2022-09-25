@@ -1,9 +1,23 @@
-import { ThumbsUp, Trash } from "phosphor-react";
-import React from "react";
+import {Trash, HandsClapping } from "phosphor-react";
+import React, { useState } from "react";
 import { Avatar } from "./Avatar";
 import styles from "./Comment.module.css";
 
-export function Comment() {
+export function Comment({content, onDeleteComment}) {
+  const [likeCount, setLikeCount] = useState(0);
+
+
+
+function handleDeleteComment() {
+  onDeleteComment(content);
+}
+
+function handleLikeComment() {
+  setLikeCount((state) => {
+    return state + 1
+  });
+}
+
   return (
     <div className={styles.comment}>
       <Avatar hasBorder={false} src="https://github.com/the-one-who-knoccks.png" alt=""  />
@@ -21,18 +35,20 @@ export function Comment() {
               </time>
             </div>
 
-            <button title="Deletar comentário">
+            <button 
+            onClick={handleDeleteComment}
+            title="Deletar comentário">
               <Trash size={24} />
             </button>
           </header>
 
-          <p>Muito bom Devon, Parabéns! 👏 👏</p>
+          <p>{content}</p>
         </div>
 
         <footer>
-          <button>
-            <ThumbsUp />
-            Aplaudir <span>20</span>
+          <button onClick={handleLikeComment}>
+            <HandsClapping size={15} />
+            Aplaudir <span>{likeCount}</span>
           </button>
         </footer>
       </div>

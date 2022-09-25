@@ -22,8 +22,7 @@ const posts = [
       },
       {
         type: "link",
-        content:
-        '👉 https://github.com/the-one-who-knoccks/NLW-eSports'
+        content: "👉 https://github.com/the-one-who-knoccks/NLW-eSports",
       },
     ],
     publishedAt: new Date("2022-09-24 22:15:00"),
@@ -37,7 +36,7 @@ const posts = [
       role: "Ceo @ Rocketseat",
     },
     content: [
-      { type: "paragraph", content: "E aí Galera! 👋", },
+      { type: "paragraph", content: "E aí Galera! 👋" },
       {
         type: "paragraph",
         content:
@@ -45,8 +44,7 @@ const posts = [
       },
       {
         type: "link",
-        content:
-          '👉 https://github.com/the-one-who-knoccks/NLW-eSports'
+        content: "👉 https://github.com/the-one-who-knoccks/NLW-eSports",
       },
     ],
     publishedAt: new Date("2022-09-23 22:10:00"),
@@ -64,6 +62,7 @@ export function App() {
           {posts.map((post) => {
             return (
               <Post
+                key={post.id}
                 author={post.author}
                 content={post.content}
                 publishedAt={post.publishedAt}
