@@ -1,0 +1,27 @@
+
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--gray-400);
+
+
+}
+
+.container img {
+  margin: 4rem 0 1.5rem 10rem;
+}
+
+
+.container  h3 {
+  color: var(--gray-300);
+  font-weight: bold;  
+}
+
+.container  h4 {
+  margin-left: 1.5rem;
+  font-weight: normal;
+  color: var(--gray-300);
+
+}
