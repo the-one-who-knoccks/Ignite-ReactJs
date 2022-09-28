@@ -42,17 +42,6 @@ function App() {
     setNewTask('');
   }
   
-  useEffect(() => {
-    localStorage.setItem('tasks', JSON.stringify(tasks));
-  }, [tasks]);
-
-
-  useEffect(() => {
-    const tasks =  JSON.parse(localStorage.getItem('tasks') as string);
-    if (tasks) {
-     setTasks(tasks);
-    }
-  }, [tasks]);
 
 
 
