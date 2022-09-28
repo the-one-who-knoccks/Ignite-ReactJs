@@ -1,15 +1,136 @@
-.addTask {
+.wrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
+
+}
+
+.addTask textarea {
+  width: 40rem;
+  height: 3.4rem;
+  border-radius: 8px;
+  resize: none;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  color: var(--gray-300);
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  overflow: hidden;
+  padding: 1rem;
+  outline: none;
   position: relative;
-  bottom: 2rem;
+  bottom: 2.5rem;
+
+
+}
+
+.addTask textarea:focus {
+  border: 2px solid var(--purple-200);
+}
+
+.addTask {
+  display: flex;
+  gap: 0.5rem;
+
+}
+
+.addTask button  {
+  background: var(--blue-200);
+  width: 5.75rem;
+  height: 3.25rem;
+  border-radius: 8px;
+  color: var(--gray-100);
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+
+  position: relative;
+  bottom: 2.5rem;
+}
+
+.addTask button:hover {
+  background: var(--blue-100);
+}
+
+
+.taskWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  border-bottom: 1px solid var(--gray-400);
+  padding-bottom: 1.6rem;
+
+
+
+}
+
+.createdTasks  {
+  display: flex;
+  gap: 1rem;
+  color: var(--blue-100);
+  font-size: 0.875rem;
+  font-weight: bold;
+
+}
+
+.concludedTasks  {
+  display: flex;
+  gap: 1rem;
+  color: var(--purple-200);
+  font-size: 0.875rem;
+  font-weight: bold;
 
 }
 
 
-@media (max-width: 768px) {
-  html {
-    font-size: 87.5%;
-  }
- 
+
+.createdTasks span  {
+  background: var(--gray-400);
+  color: var(--gray-100);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.7rem;
+  height: 1.2rem;
+
+
 }
+
+.concludedTasks span  {
+  background: var(--gray-400);
+  color: var(--gray-100);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 1.2rem;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
