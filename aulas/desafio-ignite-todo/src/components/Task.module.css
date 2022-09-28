@@ -2,17 +2,84 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+  
   
 }
 
-.task {
+.content li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 1.66rem;
+
+
+}
+
+.checkBox  { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+
+.list {
   background-color: var(--gray-500);
   border-radius: 8px;
   height: 4.5rem;
   border: 1px solid #333333;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
   border-radius: 8px;
-  width: 46rem;
+  width: 46.5rem;
+}
+
+.listComplete {
+  background-color: var(--gray-500);
+  border-radius: 8px;
+  height: 4.5rem;
+  border: 1px solid #333333;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  width: 46.5rem;
+  opacity: 50%;
+}
+
+.text  {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  width: 39rem;
+  margin-left: 1rem;
+}
+
+.textLine {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  width: 39rem;
+  margin-left: 1rem;
+  text-decoration: line-through;
+}
+
+.trashIcon button {
+  background-color: transparent;
+  color: var(--gray-300);
+  border: none;
+  cursor: pointer;
+  margin: 1.7rem 1rem 0 0;
+}
+
+
+.trashIcon button:hover{
+  color: var(--red-500);
+  background-color: var(--gray-400);
+  border-radius: 4px;
 }
 
