@@ -26,5 +26,10 @@
     "eslint": "^8.24.0",
     "typescript": "^4.6.4",
     "vite": "^3.1.0"
+  },
+  "resolutions": {
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.2"
+
   }
 }
