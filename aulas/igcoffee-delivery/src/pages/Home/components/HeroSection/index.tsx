@@ -46,7 +46,7 @@ export function HeroSection() {
             <InfoIcon
               iconBg={colors['brand-purple']}
               icon={<Coffee weight="fill" />}
-              text="O café chega fresquinho"
+              text="O café chega fresquinho até você"
             />
           </SubSectionTitle>
         </div>
