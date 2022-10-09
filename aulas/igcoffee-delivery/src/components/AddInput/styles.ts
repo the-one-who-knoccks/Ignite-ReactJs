@@ -1,6 +1,10 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
-export const AddInputContainer = styled.div`
+interface AddInputProps {
+  size?: 'medium' | 'small'
+}
+
+export const AddInputContainer = styled.div<AddInputProps>`
   flex: 1;
   background: ${({ theme }) => theme.colors['base-button']};
   display: flex;
@@ -22,6 +26,18 @@ export const AddInputContainer = styled.div`
       outline: none;
     }
   }
+
+  ${({ size }) =>
+    size === 'medium' &&
+    css`
+      padding: 0.5rem;
+    `}
+
+  ${({ size }) =>
+    size === 'small' &&
+    css`
+      padding: 0.3rem 0.5rem;
+    `}
 `
 
 export const IconWrapper = styled.button.attrs({
