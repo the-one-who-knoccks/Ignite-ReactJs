@@ -33,7 +33,7 @@ Clone o projeto e acesse a pasta aulas/igcoffee-delivery
 
 ```bash
 $ git clone https://github.com/the-one-who-knoccks/Ignite-ReactJs.git
-$ cd aulas/coffee-delivery
+$ cd aulas/igcoffee-delivery
 ```
 Para iniciá-lo, siga os passos abaixo:
 ```bash
