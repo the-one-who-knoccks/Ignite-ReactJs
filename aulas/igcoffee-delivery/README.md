@@ -27,6 +27,25 @@ O projeto faz parte do segundo desafio do Ignite. A Coffee Delivery é uma Loja 
 - [Phosphor Icons](https://phosphoricons.com/);
 
 
+## Para executar o projeto:
+
+Clone o projeto e acesse a pasta aulas/igcoffee-delivery
+
+```bash
+$ git clone https://github.com/the-one-who-knoccks/Ignite-ReactJs.git
+$ cd aulas/coffee-delivery
+```
+Para iniciá-lo, siga os passos abaixo:
+```bash
+# Instalar as dependências
+$ npm install
+
+# Iniciar o projeto
+$ npm run dev
+```
+A aplicação será iniciada no endereço http://localhost:3000.
+
+
 
 
 
