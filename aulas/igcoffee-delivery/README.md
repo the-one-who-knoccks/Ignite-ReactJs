@@ -1,5 +1,5 @@
 <div align='center'>
-  <img src="./src/assets/preview.png" alt="Logo">
+  <img src="Preview/preview.gif" alt="Logo">
 </div>
 
 <h1 align='center'>
@@ -20,6 +20,20 @@ O projeto faz parte do segundo desafio do Ignite. A Coffee Delivery é uma Loja 
 - [Typescript](https://www.typescriptlang.org/);
 - [React Router Dom](https://v5.reactrouter.com/web/guides/quick-start);
 - [Styled Components](https://styled-components.com/);
+- [Context API](https://reactjs.org/docs/context.html);
+- [React Hook Form](https://react-hook-form.com/);
+- [Immer](https://immerjs.github.io/immer/);
+- [Zod](https://github.com/colinhacks/zod);
+- [Phosphor Icons](https://phosphoricons.com/);
+
+
+
+
+
+
+
+
+
 
 
 
