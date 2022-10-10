@@ -1,5 +1,5 @@
 <div align='center'>
-  <img src="Preview/preview.gif" alt="Logo">
+  <img src="preview/preview.gif" alt="Logo">
 </div>
 
 <h1 align='center'>
