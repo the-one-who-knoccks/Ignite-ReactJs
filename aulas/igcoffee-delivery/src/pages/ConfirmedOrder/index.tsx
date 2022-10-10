@@ -5,9 +5,29 @@ import SuccessImg from '../../../src/assets/success-illustration.svg'
 import { InfoIcon } from '../../components/InfoIcons'
 import { Clock, CurrencyDollar, MapPin } from 'phosphor-react'
 import { useTheme } from 'styled-components'
+import { useLocation, useNavigate } from 'react-router-dom'
+import { OrderData } from '../CompleteOrder'
+import { paymentMethods } from '../CompleteOrder/components/PaymentMethods'
+import { useEffect } from 'react'
+
+interface LocaltionType {
+  state: OrderData
+}
 
 export function ConfirmedOrder() {
   const { colors } = useTheme()
+
+  const { state } = useLocation() as unknown as LocaltionType
+
+  const navigate = useNavigate()
+
+  useEffect(() => {
+    if (!state) {
+      navigate('/')
+    }
+  }, [navigate, state])
+
+  if (!state) return <></>
 
   return (
     <ConfirmedOrderContainer className="container">
@@ -24,9 +44,12 @@ export function ConfirmedOrder() {
             iconBg={colors['brand-purple']}
             text={
               <RegularText>
-                Entrega em <strong>Américo P Fernandes, 48</strong>
+                Entrega em{' '}
+                <strong>
+                  {state.street}, {state.number}
+                </strong>
                 <br />
-                Centro - Volta Grande, MG
+                {state.district} - {state.city}, {state.uf}
               </RegularText>
             }
           />
@@ -48,7 +71,7 @@ export function ConfirmedOrder() {
               <RegularText>
                 Pagamento na entrega
                 <br />
-                <strong>Cartão de crédito</strong>
+                <strong>{paymentMethods[state.paymentMethod].label}</strong>
               </RegularText>
             }
           />
