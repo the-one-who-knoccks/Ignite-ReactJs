@@ -13,7 +13,7 @@ IGCoffee Delivery
 O projeto faz parte do segundo desafio do Ignite. A Coffee Delivery é uma Loja on-line de cafés com a opção de delivery, onde o usuário pode adicionar os produtos desejados  ao carrinho de compras e em seguida preencher seu endereço e a forma de pagamento.
 
 
- #  Até o momento foram usadas as seguintes tecnologias
+ # Foram usadas as seguintes tecnologias:
 
 - [ViteJS](https://vitejs.dev/);
 - [ReactJS](https://pt-br.reactjs.org/);
