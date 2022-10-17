@@ -1,0 +1,60 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 10000,
+      "createdAt": "2022-10-11T17:33:18.617Z"
+    },
+    {
+      "id": 2,
+      "description": "Almoço",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 150,
+      "createdAt": "2022-10-11T17:10:18.617Z"
+    },
+    {
+      "id": 3,
+      "description": "Material para construção",
+      "type": "outcome",
+      "category": "Reforma",
+      "price": 1220,
+      "createdAt": "2022-10-11T17:10:18.617Z"
+    },
+    {
+      "id": 4,
+      "description": "Salário",
+      "type": "income",
+      "category": "Alimentação",
+      "price": 3800,
+      "createdAt": "2022-10-11T17:10:18.617Z"
+    },
+    {
+      "description": "Curso Ignite",
+      "price": 1200,
+      "category": "Educação",
+      "type": "outcome",
+      "createdAt": "2022-10-17T13:34:58.797Z",
+      "id": 5
+    },
+    {
+      "description": "App  mobile",
+      "price": 5000,
+      "category": "Desenvolvimento",
+      "type": "income",
+      "createdAt": "2022-10-17T13:36:31.329Z",
+      "id": 6
+    },
+    {
+      "description": "Pastel",
+      "price": 5,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2022-10-17T13:57:45.103Z",
+      "id": 7
+    }
+  ]
+}
