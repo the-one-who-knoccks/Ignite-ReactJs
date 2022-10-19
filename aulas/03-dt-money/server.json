@@ -55,6 +55,14 @@
       "type": "outcome",
       "createdAt": "2022-10-17T13:57:45.103Z",
       "id": 7
+    },
+    {
+      "description": "Almoço",
+      "price": 12,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2022-10-18T20:13:02.017Z",
+      "id": 8
     }
   ]
 }
