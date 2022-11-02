@@ -28,6 +28,23 @@ Projeto desenvolvido como desafio do primeiro módulo.
 * [Figma](https://www.figma.com/)
 
 
+## Para executar o projeto:
+
+Clone o projeto e acesse a pasta aulas/igcoffee-delivery
+
+```bash
+$ git clone https://github.com/the-one-who-knoccks/Ignite-ReactJs.git
+$ cd d Ignite-ReactJs/aulas/desafio-ignite-todo
+```
+Para iniciá-lo, siga os passos abaixo:
+```bash
+# Instalar as dependências
+$ npm install
+
+# Iniciar o projeto
+$ npm run dev
+```
+A aplicação será iniciada no endereço http://localhost:3000.
 
 
 
