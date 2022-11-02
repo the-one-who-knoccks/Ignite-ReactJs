@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const PostsListContainer = styled.section`
   width: 100%;
@@ -6,4 +6,4 @@ export const PostsListContainer = styled.section`
   display: grid;
   gap: 2rem;
   margin-bottom: 14rem;
-`;
+`

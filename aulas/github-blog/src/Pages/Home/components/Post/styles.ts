@@ -1,17 +1,17 @@
-import { Link } from "react-router-dom";
-import styled from "styled-components";
+import { Link } from 'react-router-dom'
+import styled from 'styled-components'
 
 export const PostContainer = styled(Link)`
   width: 100%;
   height: 16.25rem;
   border-radius: 18px;
-  background: ${({ theme }) => theme.colors["base-post"]};
-  border: 2px solid ${({ theme }) => theme.colors["base-post"]};
+  background: ${({ theme }) => theme.colors['base-post']};
+  border: 2px solid ${({ theme }) => theme.colors['base-post']};
   padding: 2rem;
   transition: 0.4s;
 
   &:hover {
-    border-color: ${({ theme }) => theme.colors["base-label"]};
+    border-color: ${({ theme }) => theme.colors['base-label']};
   }
 
   div {
@@ -21,8 +21,8 @@ export const PostContainer = styled(Link)`
 
     strong {
       flex: 1;
-      font-size: ${({ theme }) => theme.textSizes["title-title-m"]};
-      color: ${({ theme }) => theme.colors["base-title"]};
+      font-size: ${({ theme }) => theme.textSizes['title-title-m']};
+      color: ${({ theme }) => theme.colors['base-title']};
       overflow: hidden;
       text-overflow: ellipsis;
       display: -webkit-box;
@@ -32,8 +32,8 @@ export const PostContainer = styled(Link)`
 
     span {
       width: max-content;
-      font-size: ${({ theme }) => theme.textSizes["title-title-s"]};
-      color: ${({ theme }) => theme.colors["base-span"]};
+      font-size: ${({ theme }) => theme.textSizes['text-text-s']};
+      color: ${({ theme }) => theme.colors['base-span']};
     }
   }
 
@@ -44,4 +44,4 @@ export const PostContainer = styled(Link)`
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 4;
   }
-`;
+`
