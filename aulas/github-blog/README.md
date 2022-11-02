@@ -11,8 +11,8 @@
 
  # 💻 Projeto
  
-O projeto faz parte do segundo desafio do Ignite. O GithubBlog é uma SPA onde você pode
-pesquisar por issues no github.
+O projeto faz parte do segundo desafio do Ignite. O GithubBlog é uma aplicação onde você pode
+pesquisar por issues no github e acessá-las.
 
 
  ## Foram usadas as seguintes tecnologias:
