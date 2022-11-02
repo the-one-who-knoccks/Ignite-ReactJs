@@ -31,9 +31,13 @@ O projeto faz parte do segundo desafio do Ignite. A Coffee Delivery é uma Loja 
 
 Clone o projeto e acesse a pasta aulas/igcoffee-delivery
 
+## Para executar o projeto:
+
+Clone o projeto e acesse a pasta aulas/igcoffee-delivery
+
 ```bash
 $ git clone https://github.com/the-one-who-knoccks/Ignite-ReactJs.git
-$ cd aulas/igcoffee-delivery
+$ cd Ignite-ReactJs/aulas/igcoffee-delivery
 ```
 Para iniciá-lo, siga os passos abaixo:
 ```bash
