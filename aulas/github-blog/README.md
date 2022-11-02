@@ -32,8 +32,8 @@ pesquisar por issues no github e acessá-las.
 Clone o projeto e acesse a pasta aulas/igcoffee-delivery
 
 ```bash
-$ git clone https://github.com/the-one-who-knoccks/aulas/github-blog.git
-$ cd aulas/github-blog
+$ git clone https://github.com/the-one-who-knoccks/Ignite-ReactJs.git
+$ cd d Ignite-ReactJs/aulas/github-blog
 ```
 Para iniciá-lo, siga os passos abaixo:
 ```bash
