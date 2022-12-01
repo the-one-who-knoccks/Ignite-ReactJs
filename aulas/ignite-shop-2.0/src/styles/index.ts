@@ -12,11 +12,12 @@ export const {
 } = createStitches({
   theme: {
     colors: {
-      white: "#FFF",
-
+      white: "#fff",
       gray900: "#121214",
-      gray800: "#282824",
-      gray700: "#c4c4cc",
+      gray800: "#202024",
+      gray700: "#2b2b30",
+      gray500: "#8D8D99",
+      gray300: "#c4c4cc",
       gray100: "#e1e1e6",
 
       green500: "#00875f",

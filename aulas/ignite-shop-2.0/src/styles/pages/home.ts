@@ -1,11 +1,9 @@
 import { styled } from "..";
 import Link from "next/link";
 export const HomeContainer = styled('main', {
-  display: 'flex',
-  width: '100%',
-  maxWidth: 'calc(100vw - ((100vw - 1180px) / 2))',
-  minHeight: 656,
-  marginLeft: 'auto',
+  width: "100%",
+  maxWidth: "calc(100vw - ((100vw - 1180px) / 2))",
+  marginLeft: "auto",
 })
 
 export const Product = styled(Link, {
@@ -14,7 +12,6 @@ export const Product = styled(Link, {
   cursor: 'pointer',
   position: 'relative',
   overflow: 'hidden',
-
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center', 
@@ -38,6 +35,13 @@ export const Product = styled(Link, {
 
     backgroundColor: 'rgba(0, 0, 0, 0.6)',
 
+
+    div: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 4,
+    },
+
     transform: 'translateY(110%)',
     opacity: 0,
     transition: 'all 0.2s ease-in-out',
@@ -51,6 +55,7 @@ export const Product = styled(Link, {
       fontSize: '$xl',
       fontWeight: 'bold',
       color: '$green300',
+
     }
   },
 
