@@ -3,7 +3,7 @@
 </div>
 
 <div align='center'>
-  <img src="src/assets/prev/ignite-shop.gif" alt="Logo">
+  <img src="src/assets/prev/ignite-shop-2.0.gif" alt="Logo">
 </div>
 
 
