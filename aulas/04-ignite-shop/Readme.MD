@@ -11,7 +11,7 @@
 
  # 💻 Projeto
  
-O projeto faz parte do quarto desafio do Ignite. O Ignite Shop é uma aplicação desenvolvida utilizando NextJS onde você pode escolher camisetas temáticas da rocketseat e realizar o checkout do produto.
+A aplicação faz parte do quarto projeto do Ignite. O Ignite Shop é uma aplicação desenvolvida utilizando NextJS onde você pode escolher camisetas temáticas da rocketseat e realizar o checkout do produto.
 
 
  ## Foram usadas as seguintes tecnologias:
