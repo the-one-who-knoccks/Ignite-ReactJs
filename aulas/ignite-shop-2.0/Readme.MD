@@ -29,7 +29,7 @@ Clone o projeto e acesse a pasta aulas/igcoffee-delivery
 
 ```bash
 $ git clone https://github.com/the-one-who-knoccks/Ignite-ReactJs.git
-$ cd Ignite-ReactJs/aulas/04-ignite-shop
+$ cd Ignite-ReactJs/aulas/ignite-shop-2.0
 ```
 Para iniciá-lo, siga os passos abaixo:
 ```bash

@@ -80,7 +80,7 @@ export function Cart() {
             <FinalizationDetails>
               <div>
                 <span>Quantidade</span>
-                <p>{cartQuantity} {cartQuantity === 1 ? "itens" : "item"}</p>
+                <p>{cartQuantity} {cartQuantity === 1 ? "item" : "itens"}</p>
               </div>
               <div>
                 <span>Valor total</span>
