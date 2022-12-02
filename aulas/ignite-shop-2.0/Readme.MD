@@ -11,7 +11,8 @@
 
  # 💻 Projeto
  
-O projeto faz parte do quarto desafio do Ignite. O Ignite Shop 2.0 é uma aplicação desenvolvida utilizando NextJS onde você pode escolher camisetas temáticas da rocketseat e realizar o checkout do produto.
+O Ignite Shop 2.0 é uma aplicação desenvolvida utilizando NextJS onde você pode escolher camisetas temáticas da rocketseat e realizar o checkout do produto. Nessa versão 2.0, como desafaio, adicionamos novas features na aplicação criada anteriormente.
+Foram adicionados carrinho de compras com adição e remoção do produto e checkout de mais de um produto para pagina de pagamento do stripe.
 
 
  ## Foram usadas as seguintes tecnologias:
