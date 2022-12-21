@@ -9,14 +9,14 @@ export const Heading = styled('h2', {
 
   variants: {
     size: {
-      sm: { fontsize: '$xl' },
-      md: { fontsize: '$2xl' },
-      lg: { fontsize: '$4xl' },
-      '2xl': { fontsize: '$5xl' },
-      '3xl': { fontsize: '$6xl' },
-      '4xl': { fontsize: '$7xl' },
-      '5xl': { fontsize: '$8xl' },
-      '6xl': { fontsize: '$9xl' },
+      sm: { fontSize: '$xl' },
+      md: { fontSize: '$2xl' },
+      lg: { fontSize: '$4xl' },
+      '2xl': { fontSize: '$5xl' },
+      '3xl': { fontSize: '$6xl' },
+      '4xl': { fontSize: '$7xl' },
+      '5xl': { fontSize: '$8xl' },
+      '6xl': { fontSize: '$9xl' },
     },
   },
 
@@ -28,3 +28,5 @@ export const Heading = styled('h2', {
 export interface HeadingProps extends ComponentProps<typeof Heading> {
   as?: ElementType
 }
+
+Heading.displayName = 'Heading'

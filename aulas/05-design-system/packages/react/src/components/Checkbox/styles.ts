@@ -1,5 +1,5 @@
-import { styled, keyframes } from '@stitches/react'
 import * as Checkbox from '@radix-ui/react-checkbox'
+import { styled, keyframes } from '../../styles'
 
 export const CheckboxContainer = styled(Checkbox.Root, {
   all: 'unset',

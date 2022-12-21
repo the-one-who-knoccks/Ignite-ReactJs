@@ -9,6 +9,13 @@ export default {
     src: 'https://github.com/the-one-who-knoccks.png',
     alt: 'Thiago Alves',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
